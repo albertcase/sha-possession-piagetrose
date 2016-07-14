@@ -7,8 +7,8 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "possessionlounge"
 
 
-  config.vm.network :forwarded_port, guest: 80, host: 8057
-  config.vm.network :forwarded_port, guest: 3306, host: 33057
+  config.vm.network :forwarded_port, guest: 80, host: 8067
+  config.vm.network :forwarded_port, guest: 3306, host: 33067
 
   config.vm.network :private_network, ip: "192.168.33.10"
 
