@@ -22,9 +22,9 @@
 
 <div id="dreambox">
 	<div class="section">
-		<a href="javascript:;" class="logo">
+		<!-- <a href="javascript:;" class="logo">
             <img src="/vstyle/img/logo.png" width="100%" />
-        </a>
+        </a> -->
 	</div>
     <img src="/vstyle/img/successBg.jpg" width="100%" />
 </div>
