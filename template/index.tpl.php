@@ -20,11 +20,12 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?3046733d3dc57c42d977c2ab946f1a0b";
+      hm.src = "//hm.baidu.com/hm.js?fc42309cde9c505be852939eb7293d09";
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();
     </script>
+
 
 </head>
 <body>

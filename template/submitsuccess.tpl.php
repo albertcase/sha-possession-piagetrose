@@ -15,7 +15,15 @@
 
     <link rel="stylesheet" type="text/css" href="/vstyle/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="/vstyle/css/style.css" />
-
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?fc42309cde9c505be852939eb7293d09";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 </head>
 <body>
 
