@@ -122,7 +122,7 @@
                         <input type="text" placeholder="名 / First Name" name="firstName">
                     </li>
                     <li>
-                        <input type="tel" placeholder="手机号 / Mobile" name="tel">
+                        <input type="tel" placeholder="手机号 / Mobile" maxlength="11" name="tel">
                     </li>
                     <li>
                         <input type="text" placeholder="邮箱 / E-mail（可选）" name="email">
