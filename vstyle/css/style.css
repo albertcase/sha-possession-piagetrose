@@ -314,7 +314,7 @@
 .loading{
     width: 100%;
     height: 100%;
-    background: #fadc8c;
+    background: rgba(255,255,255, .9);
     position: absolute;
     left: 0;
     top: 0;
