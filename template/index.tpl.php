@@ -16,19 +16,31 @@
     <link rel="stylesheet" type="text/css" href="/vstyle/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="/vstyle/css/style.css" />
     <script type="text/javascript" src="/vstyle/js/jquery.js"></script>
+    <script type="text/javascript" src="/vstyle/js/PxLoader.js"></script>
     <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?fc42309cde9c505be852939eb7293d09";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?fc42309cde9c505be852939eb7293d09";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
     </script>
 
 
 </head>
 <body>
+
+<div class="loading">
+    <div class="cssload-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+    
 
 <div class="pupBox" id="pupTnc">
     <div class="con">
@@ -257,6 +269,38 @@
         },3000);
     }
 
+
+
+
+
+    var LoadingImg = [
+        "/vstyle/img/checkbox.png",
+        "/vstyle/img/close.png",
+        "/vstyle/img/formBg.jpg",
+        "/vstyle/img/formContext.png",
+        "/vstyle/img/logo.png",
+        "/vstyle/img/placeholder.png",
+        "/vstyle/img/successBg.jpg",
+    ];
+
+
+    function loading(allAmg){
+        LoadFn(allAmg , function (){
+
+            $("img").each(function(){ 
+                $(this).attr("src",$(this).attr("sourcesrc"));
+            })
+
+            $(".loading").hide();
+
+        } , function (p){
+            //console.log(p);
+        });
+    }
+
+
+
+    loading(LoadingImg);
 
 
 </script>
