@@ -126,6 +126,24 @@ textarea::-webkit-input-placeholder {
 }
 
 
+.disabled{
+    position: relative;
+}
+
+.disabled:before{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    content: "加载中...";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255,255,255,.9);
+    z-index: 9;
+}
+
 
 
 
