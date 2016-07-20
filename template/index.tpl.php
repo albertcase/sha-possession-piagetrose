@@ -88,13 +88,23 @@
                             <span class="placeholder">城市 / City</span>
                             <select name="city">
                                 <option>城市 / City</option>
+                                <option>北京</option>
+                                <option>沈阳</option>
+                                <option>天津</option>
                                 <option>上海</option>
                                 <option>杭州</option>
-                                <option>成都</option>
-                                <option>郑州</option>
-                                <option>南宁</option>
+                                <option>苏州</option>
+                                <option>南京</option>
+                                <option>济南</option>
+                                <option>西安</option>
                                 <option>青岛</option>
-                                <option>天津</option>
+                                <option>郑州</option>
+                                <option>广州</option>
+                                <option>厦门</option>
+                                <option>长沙</option>
+                                <option>南宁</option>
+                                <option>成都</option>
+                                <option>重庆</option>
                             </select>
                     </li>
                     <li class="select">
