@@ -108,21 +108,21 @@ html, body{
 
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #999;  
+    color: rgba(200,165,102,.8);  
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #999;
+    color: rgba(200,165,102,.8);
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-    color: #999;
+    color: rgba(200,165,102,.8);
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-    color: #999;
+    color: rgba(200,165,102,.8);
 }
 
 
