@@ -105,6 +105,7 @@
                                 <option>南宁</option>
                                 <option>成都</option>
                                 <option>重庆</option>
+                                <option>合肥</option>
                             </select>
                     </li>
                     <li class="select">
