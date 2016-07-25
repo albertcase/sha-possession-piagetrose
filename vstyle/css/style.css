@@ -99,7 +99,7 @@
 }
 
 .formli li span.placeholder{
-    color: #999;
+    color: rgba(200, 165, 102, .8);
 }
 
 .formli li.select{
